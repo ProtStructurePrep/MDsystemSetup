@@ -1,6 +1,6 @@
 [Installation](#installation) |  [Requirements](#requirements) | [Contributing](#contributing) |  [Acknowledgment](#acknowledgment)
 
-OptimMDs 
+Complex-Ligand System Setup in Molecular Dynamics Simulations 
 =================
 
 
@@ -14,6 +14,8 @@ Table of contents
 =================
 
 * [Installation](#installation)
+* [Binding Pose Metadynamics Integration](#BPMD)
+* [Tutorials](#tutorials)
 * [Requirements](#requirements)
 * [Contributing](#contributing)
 * [Acknowledgment](#acknowledgment)
@@ -29,12 +31,20 @@ To install ....
    pip install 
 ```
 
+Binding Pose Metadynamics Integration
+============
+In addition to the program’s MD simulations capabilities, it also offers the ability to perform BPMD, a computational technique that uses the MD simulations to explore the binding process between a ligand and its target receptor. Accurately predicting the binding pose of a ligand within a protein binding site remains challenging. Because of this, being able to incorporate BPMD in the program can enhance computer-aided drug discovery efforts.
+
+
 Requirements
 =================
 * [MDTraj](https://github.com/mdtraj/mdtraj)
+* [MDAnalysis](https://github.com/MDAnalysis/mdanalysis)
 * [nglview](https://github.com/nglviewer/nglview)
 * [OpenMM](https://github.com/openmm/openmm) and [OpenMM Forcefields](https://github.com/openmm/openmmforcefields)
 * [RDKit](https://github.com/rdkit/rdkit)
 * [PDBFixer](https://github.com/openmm/pdbfixer)
+* [OpenFF](https://github.com/openforcefield)
+
 
 
