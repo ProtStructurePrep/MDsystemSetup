@@ -18,7 +18,6 @@ Table of contents
 
 Installation
 ============
-To install ....
 
 - Available on [PyPI](https://pypi.python.org/pypi/nglview/)
 
@@ -29,6 +28,7 @@ To install ....
 Requirements
 =================
 * [MDTraj](https://github.com/mdtraj/mdtraj)
+* [MDAnalysis](https://github.com/MDAnalysis/mdanalysis).
 * [nglview](https://github.com/nglviewer/nglview)
 * [OpenMM](https://github.com/openmm/openmm) and [OpenMM Forcefields](https://github.com/openmm/openmmforcefields)
 * [RDKit](https://github.com/rdkit/rdkit)
