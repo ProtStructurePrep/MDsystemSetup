@@ -1,8 +1,5 @@
 [Installation](#installation) |  [Requirements](#requirements) | [Contributing](#contributing) |  [Acknowledgment](#acknowledgment)
 
-OptimMDs 
-=================
-
 
 Protein-Ligand Complex MD simulations
 =================
